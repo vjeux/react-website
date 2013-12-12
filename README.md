@@ -2,8 +2,8 @@ React website using react-page
 
 > Clone this project
 
-    git clone https://github.com/facebook/react-page
-    cd react-page
+    git clone https://github.com/vjeux/react-website
+    cd react-website
     npm install                            # install dependencies.
 
 > Try out the server rendering
