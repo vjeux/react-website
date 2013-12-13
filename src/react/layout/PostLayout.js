@@ -20,11 +20,13 @@
 var React = require('React');
 var Site = require('Site');
 var Showdown = require('showdown');
+var Metadata = require('Metadata');
 
 var Markdown = React.createClass({
   render: function() {
     var unindent = require('unindent');
     var code = unindent(this.props.children);
+    code = code.replace(/^---([\s\S]+)---/, '');
     var html = new Showdown.converter().makeHtml(code);
 
     return (
@@ -40,7 +42,30 @@ var PostLayout = React.createClass({
   render: function() {
     return (
       <Site section="blog">
-        <Markdown>{this.props.children}</Markdown>
+        <section className="content wrap blogContent">
+          <div className="nav-docs nav-blog">
+            <div className="nav-docs-section">
+              <h3>Recent posts</h3>
+              <ul>
+                {Metadata
+                  .filter((metadata) => metadata.filename.match(/^blog/))
+                  .reverse()
+                  .map((metadata) => <li>
+                    <a
+                      className={metadata.filename === this.props.metadata.filename ? 'active' : ''}
+                      href={metadata.href}>
+                      {metadata.title}
+                    </a>
+                  </li>)
+                }
+              </ul>
+            </div>
+          </div>
+          <div className="inner-content">
+            <h1>{this.props.metadata.title}</h1>
+            <Markdown>{this.props.children}</Markdown>
+          </div>
+        </section>
       </Site>
     );
   }

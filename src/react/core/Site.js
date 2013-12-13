@@ -46,11 +46,6 @@ var Site = React.createClass({
 
           <script type="text/javascript" src="//use.typekit.net/vqa1hcx.js"></script>
           <script type="text/javascript">{'try{Typekit.load();}catch(e){}'}</script>
-
-          <script type="text/javascript" src="js/codemirror.js"></script>
-          <script type="text/javascript" src="js/javascript.js"></script>
-          <script type="text/javascript" src="js/JSXTransformer.js"></script>
-          <script type="text/javascript" src="js/showdown.js"></script>
         </ReactStyleHead>
         <body>
 

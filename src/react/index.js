@@ -17,7 +17,7 @@
  */
 
 var React = require('React');
-var Site = require('./core/Site.js');
+var Site = require('Site');
 var ReactPlayground = require('./core/ReactPlayground.js');
 
 var index = React.createClass({
