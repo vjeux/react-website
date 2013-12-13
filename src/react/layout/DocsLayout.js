@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
- * @providesModule PostLayout
+ * @providesModule DocsLayout
  * @jsx React.DOM
  */
 
@@ -22,10 +22,10 @@ var Site = require('Site');
 var Metadata = require('Metadata');
 var Markdown = require('Markdown');
 
-var PostLayout = React.createClass({
+var DocsLayout = React.createClass({
   render: function() {
     return (
-      <Site section="blog">
+      <Site section="docs">
         <section className="content wrap blogContent">
           <div className="nav-docs nav-blog">
             <div className="nav-docs-section">
@@ -55,4 +55,4 @@ var PostLayout = React.createClass({
   }
 });
 
-module.exports = PostLayout;
+module.exports = DocsLayout;
