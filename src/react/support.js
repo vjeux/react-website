@@ -17,9 +17,9 @@
  */
 
 var React = require('React');
-var Site = require('./core/Site.js');
-var center = require('./core/center.js');
-var H2 = require('./core/H2.js');
+var Site = require('Site');
+var center = require('center');
+var H2 = require('H2');
 
 var support = React.createClass({
   render: function() {

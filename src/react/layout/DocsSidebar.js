@@ -22,7 +22,6 @@ var Metadata = require('Metadata');
 var DocsSidebar = React.createClass({
   getCategories: function() {
     var metadatas = Metadata.filter((metadata) => metadata.filename.match(/^(docs|tips)/));
-    typeof console !== 'undefined' && console.log(metadatas.length);
 
     // Build a hashmap of article_id -> metadata
     // Find the first metadata
