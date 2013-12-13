@@ -2,6 +2,7 @@
 id: forms
 title: Forms
 layout: docs
+category: Guides
 permalink: forms.html
 prev: reusable-components.html
 next: working-with-the-browser.html

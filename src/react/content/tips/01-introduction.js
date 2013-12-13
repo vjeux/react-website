@@ -3,6 +3,7 @@ id: introduction
 title: Introduction
 layout: tips
 permalink: introduction.html
+prev: dom-differences.html
 next: inline-styles.html
 ---
 

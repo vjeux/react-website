@@ -2,6 +2,7 @@ module.exports = `---
 id: why-react
 title: Why React?
 layout: docs
+category: Guides
 permalink: why-react.html
 next: displaying-data.html
 ---

@@ -2,8 +2,10 @@
 id: dom-differences
 title: DOM Differences
 layout: docs
+category: Reference
 permalink: dom-differences.html
 prev: events.html
+next: introduction.html
 ---
 
 React has implemented a browser-independent events and DOM system for performance and cross-browser compatibility reasons. We took the opportunity to clean up a few rough edges in browser DOM implementations.

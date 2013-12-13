@@ -2,6 +2,7 @@
 id: component-specs
 title: Component Specs and Lifecycle
 layout: docs
+category: Reference
 permalink: component-specs.html
 prev: component-api.html
 next: tags-and-attributes.html

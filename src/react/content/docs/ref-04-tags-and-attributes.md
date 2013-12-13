@@ -2,6 +2,7 @@
 id: tags-and-attributes
 title: Tags and Attributes
 layout: docs
+category: Reference
 permalink: tags-and-attributes.html
 prev: component-specs.html
 next: events.html

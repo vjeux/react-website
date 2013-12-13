@@ -2,12 +2,14 @@ module.exports = `---
 id: two-way-binding-helpers
 title: Two-Way Binding Helpers
 layout: docs
+category: Guides
+indent: true
 permalink: two-way-binding-helpers.html
 prev: animation.html
 next: class-name-manipulation.html
 ---
 
-\`ReactLink\` is an easy way to express two-way binding with React. 
+\`ReactLink\` is an easy way to express two-way binding with React.
 
 > Note:
 >

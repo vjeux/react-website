@@ -2,6 +2,7 @@ module.exports = `---
 id: events
 title: Event System
 layout: docs
+category: Reference
 permalink: events.html
 prev: tags-and-attributes.html
 next: dom-differences.html
@@ -109,7 +110,7 @@ onDragOver onDragStart onDrop onMouseDown onMouseEnter onMouseLeave
 onMouseMove onMouseUp
 \`\`\`
 
-Properties: 
+Properties:
 
 \`\`\`javascript
 boolean altKey

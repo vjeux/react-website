@@ -89,7 +89,6 @@ glob(MD_DIR + '**/*.md', function (er, files) {
           '});\n'
         );
 
-        console.log(targetFile);
         mkdirp.sync(targetFile.replace(new RegExp('/[^/]*$'), ''));
         fs.writeFileSync(targetFile, content);
       }

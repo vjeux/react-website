@@ -2,6 +2,7 @@ module.exports = `---
 id: reusable-components
 title: Reusable Components
 layout: docs
+category: Guides
 permalink: reusable-components.html
 prev: multiple-components.html
 next: forms.html

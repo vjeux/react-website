@@ -2,8 +2,10 @@ module.exports = `---
 id: examples
 title: Examples
 layout: docs
+category: Guides
 permalink: examples.html
 prev: addons.html
+next: top-level-api.html
 ---
 
 ### Production Apps

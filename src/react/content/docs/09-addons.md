@@ -2,6 +2,7 @@
 id: addons
 title: Add-ons
 layout: docs
+category: Guides
 permalink: addons.html
 prev: tooling-integration.html
 next: animation.html

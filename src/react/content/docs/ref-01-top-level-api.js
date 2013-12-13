@@ -2,7 +2,9 @@ module.exports = `---
 id: top-level-api
 title: Top-Level API
 layout: docs
+category: Reference
 permalink: top-level-api.html
+prev: examples.html
 next: component-api.html
 ---
 

@@ -2,6 +2,8 @@ module.exports = `---
 id: jsx-in-depth
 title: JSX in Depth
 layout: docs
+category: Guides
+indent: true
 permalink: jsx-in-depth.html
 prev: displaying-data.html
 next: jsx-gotchas.html

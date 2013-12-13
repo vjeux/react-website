@@ -2,6 +2,8 @@ module.exports = `---
 id: jsx-gotchas
 title: JSX Gotchas
 layout: docs
+category: Guides
+indent: true
 permalink: jsx-gotchas.html
 prev: jsx-in-depth.html
 next: interactivity-and-dynamic-uis.html

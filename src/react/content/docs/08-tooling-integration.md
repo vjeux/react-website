@@ -2,6 +2,7 @@
 id: tooling-integration
 title: Tooling Integration
 layout: docs
+category: Guides
 permalink: tooling-integration.html
 prev: more-about-refs.html
 next: addons.html

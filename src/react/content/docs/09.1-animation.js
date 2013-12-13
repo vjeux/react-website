@@ -2,6 +2,8 @@ module.exports = `---
 id: animation
 title: Animation
 layout: docs
+category: Guides
+indent: true
 permalink: animation.html
 prev: addons.html
 next: two-way-binding-helpers.html

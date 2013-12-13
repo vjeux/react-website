@@ -2,6 +2,7 @@
 id: component-api
 title: Component API
 layout: docs
+category: Reference
 permalink: component-api.html
 prev: top-level-api.html
 next: component-specs.html

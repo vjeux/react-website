@@ -2,7 +2,11 @@
 id: tutorial
 title: Tutorial
 layout: docs
+category: Quick Start
+prev: getting-started.html
+next: why-react.html
 ---
+
 We'll be building a simple, but realistic comments box that you can drop into a blog, similar to Disqus, LiveFyre or Facebook comments.
 
 We'll provide:

@@ -2,6 +2,7 @@
 id: getting-started
 title: Getting Started
 layout: docs
+category: Quick Start
 next: tutorial.html
 ---
 
