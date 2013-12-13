@@ -13,10 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
+ * @providesModule ReactPlayground
  * @jsx React.DOM
  */
 
 var React = require('React');
+var unindent = require('unindent');
 
 var IS_MOBILE = (
   typeof navigator !== 'undefined' && (
@@ -81,7 +83,7 @@ var ReactPlayground = React.createClass({displayName: 'ReactPlayground',
     }
     var code = lines.join('\n');
 
-    return {mode: this.MODES.XJS, code: code};
+    return {mode: this.MODES.XJS, code: unindent(this.props.codeText)};
   },
 
   bindState: function(name) {

@@ -9,7 +9,10 @@
     "react-styles": "git://github.com/hedgerwang/react-styles.git",
     "optimist": "0.6.0",
     "react-page-middleware": "git://github.com/facebook/react-page-middleware.git",
-    "connect": "2.8.3"
+    "connect": "2.8.3",
+    "showdown": "0.3.1",
+    "glob": "*",
+    "mkdirp": "*"
   },
   "author": {
     "name": "Jordan Walke",

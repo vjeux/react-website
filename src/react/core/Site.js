@@ -13,12 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
+ * @providesModule Site
  * @jsx React.DOM
  */
 
 var React = require('React');
-var ReactStyle = require('ReactStyle');
 var ReactStyleHead = require('ReactStyleHead');
+var HeaderLinks = require('HeaderLinks');
 
 var Site = React.createClass({
   render: function() {
@@ -60,13 +61,7 @@ var Site = React.createClass({
                   <img className="nav-logo" alt="" src="/react/img/logo_small.png" width="38" height="38" />
                   React
                 </a>
-                <ul className="nav-site">
-                  <li><a href="/react/docs/getting-started.html">docs</a></li>
-                  <li><a href="/react/support.html" className={this.props.section === 'support' ? 'active' : ''}>support</a></li>
-                  <li><a href="/react/downloads.html">download</a></li>
-                  <li><a href="/react/blog/">blog</a></li>
-                  <li><a href="http://github.com/facebook/react">github</a></li>
-                </ul>
+                <HeaderLinks section={this.props.section} />
               </div>
             </div>
 

@@ -13,11 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *
+ * @providesModule H2
  * @jsx React.DOM
  */
 
 var React = require('React');
-var Header = require('./Header.js');
+var Header = require('Header');
 
 var H2 = React.createClass({
   render: function() {
