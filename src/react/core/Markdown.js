@@ -19,12 +19,30 @@
 
 var unindent = require('unindent');
 var Showdown = require('showdown');
+var highlight = require('highlight');
 
 var Markdown = React.createClass({
   render: function() {
     var code = unindent(this.props.children);
     code = code.replace(/^---([\s\S]+)---/, '');
     var html = new Showdown.converter().makeHtml(code);
+
+    html = html.replace(
+      new RegExp('<pre><code( class="([a-z]+)[^"]*"|())>([\\s\\S]*?)</code></pre>', 'g'), // </code></pre>
+      function(_, _, type, _, code) {
+        console.log(arguments);
+        if (!type || type === 'html') {
+          type = 'htmlmixed'
+        }
+        return (
+          '<div class="highlight cm-s-solarized-light ' + type + '">' +
+            '<pre><code>' +
+              highlight(code, {mode: type}) +
+            '</code></pre>' +
+          '</div>'
+        );
+      }
+    );
 
     return (
       <div
